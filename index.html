@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+   
+        <span class="span7">Library System</span>
+        <span class="spn8"><a href="" >Logout</a></span>
+        <span class="spn8"><a href="" >Contact Us</a></span>
+        <span class="spn8"><a href="#" >Register</a></span>
+        <span class="spn8"><a href="#" >Books</a></span>
+    </nav>
+    <main class="container">
+        <section class="books-table" id="book">
+            <h1>Books</h1>
+            <table>
+                <tr>
+                    
+                        <th>Books ID</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Genre</th>
+                        <th>Availabilty</th>
+                    
+                </tr>
+                
+                    <tr>
+                        <td>
+                            1
+                        </td>
+                        <td >
+                        <div class="aye-2"><a href="#">Book Title 1</a></div>
+                        <div class="aye-1">Publication Date: 2000</div>
+                        <div class="aye-1">Page count:250</div>
+                        <div class="aye-1">ISBN: 123-4567890123</div>
+                       </td>
+                       <td>
+                        Author Name 1
+                       </td>
+                       <td>
+                        Genre 1
+                       </td>
+                       <td>
+                        Available
+                       </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            2
+                        </td>
+                        <td >
+                        <div class="aye-2" ><a href="#">Book Title 2</a></div>
+                        <div class="aye-1">Publication Date: 2005</div>
+                        <div class="aye-1">Page count:300</div>
+                        <div class="aye-1">ISBN: 123-4567890456</div>
+                       </td>
+                       <td>
+                        Author Name 2
+                       </td>
+                       <td>
+                        Genre 2
+                       </td>
+                       <td>
+                        Not Available
+                       </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            3
+                        </td>
+                        <td >
+                        <div class="aye-2" ><a href="#">Book Title 3</a></div>
+                        <div class="aye-1">Publication Date: 2010</div>
+                        <div class="aye-1">Page count:350</div>
+                        <div class="aye-1">ISBN: 123-4567890789</div>
+                       </td>
+                       <td>
+                        Author Name 3
+                       </td>
+                       <td>
+                        Genre 3
+                       </td>
+                       <td>
+                        Available
+                       </td>
+                    </tr>
+                
+            </table>
+        </section>
+
+        <section class="regi-1">
+            <h1 id="reg">Register</h1>
+            <form action="#" method="get">
+            <div class="control" >
+                <label for="Fn">First Name:</label><br>
+                <input type="text" id="FN" placeholder=" Enter First Name" required>
+            </div>
+            <div class="control">
+                <label for="LN">Last NAME:</label><br>
+                <input type="text" id="LN" placeholder="Enter Last Name" required>
+            </div>
+            <div class="control">
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" name="date" id="dob" required>
+            </div>
+            <div class="control">
+                <label for="ag">Age:</label><br>
+                <input type="number" id="ag" required>
+            </div>
+            <div class="control">
+                <label for="em">Email:</label><br>
+                <input type="email" id="em" placeholder="Enter Your Email" required>
+            </div>
+            <div class="control">
+                <label for="pass">Password:</label><br>
+                <input type="password" name="password" id="pass" placeholder="Enter your Password" pattern="\b\d{5}\b" required>
+            </div>
+            <div class="control">
+                <label for="cpass">Confirm Password:</label><br>
+                <input type="password" name="password" id="cpass" placeholder="Enter your Password" pattern="\b\d{5}\b" required>
+            </div>
+            <div class="control">
+                
+                <input type="submit" value="Register" class="submit">
+            </div>
+            </form>
+        </section>
+    </main>
+
+
+</body>
+</html>
